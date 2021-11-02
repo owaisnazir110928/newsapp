@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+THIS IS A NewsWebApp BUILD USING NODEJS,REACTJS AND FETCHING NEWS FROM NEWSAPI.ORG
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
