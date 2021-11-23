@@ -10,11 +10,11 @@ const[progress,setProgress]=useState(0)
     return (
     <div style={{backgroundColor:'rgb(17 18 40)',color:'white'}}>
       <Router>
-        <Navbar/>
+       <Navbar/>
         <LoadingBar
         color='#f11946'
         progress={progress}
-      />
+      />  
         <Switch>
           <Route exact path="/"><News setProgress={setProgress}key="general" pageSize={12} country="in" category="general"/></Route>
           <Route exact path="/home"><News setProgress={setProgress}key="general" pageSize={12} country="in" category="general"/></Route>
